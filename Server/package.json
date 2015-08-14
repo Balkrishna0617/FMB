@@ -1,0 +1,21 @@
+{
+  "name": "fmbserver",
+  "version": "0.0.1",
+  "description": "FMB Project",
+  "main": "fmbServer.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "nodejs",
+    "angularjs"
+  ],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.13.3",
+    "express": "^4.13.3",
+    "mongodb": "^2.0.40",
+    "nodemailer": "^1.4.0"
+  }
+}

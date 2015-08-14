@@ -1,0 +1,21 @@
+{
+  "name": "fmbclient",
+  "version": "0.0.1",
+  "homepage": "https://github.com/Balkrishna0617/FMB",
+  "authors": [
+    "balkrishna0617 <balkrishnasawant0617@gmail.com>"
+  ],
+  "description": "FMB client",
+  "keywords": [
+    "angularjs"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "scripts",
+    "test",
+    "tests"
+  ]
+}
