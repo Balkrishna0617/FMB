@@ -1,0 +1,11 @@
+{
+	"file_serving_dir" : "/home/user/uploads/FMB",
+	"file_serving_dir_local" : "/home/balkrishna/uploads/FMB",
+	"client_dir" : "/Client",
+	"server_addr" : "",
+	"server_addr_local" : "http://192.168.2.135:8383",
+	"sender_email_host" : "smtp.gmail.com",
+	"sender_email_port" : "587",
+	"sender_email_add" : "",
+	"sender_email_pass" : ""
+}

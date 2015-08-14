@@ -52,6 +52,20 @@ var logObj = function (){
 				})
 			})
 	};
+	this.logErrorServer = function(err){
+		var errorTime = this.formatAMPM(new Date());
+		var printErr = errorTime+err.stack;
+		var today = this.filename() + '.log';		
+			fs.open('./logs/log/'+today,'a', function(err, fd){
+				var writeBuffer = new Buffer (printErr+'\n==================================================================\n');
+				var bufferPosition = 0,
+		        bufferLength = writeBuffer.length,
+		        filePosition = null;
+				fs.write(fd, writeBuffer, bufferPosition, bufferLength, filePosition, function(err, written){
+					console.log("file written.");
+				})
+			})
+	};
 };
 
 module.exports = function(){
